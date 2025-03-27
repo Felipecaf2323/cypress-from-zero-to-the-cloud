@@ -9,6 +9,6 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v6
         env:
-          CYPRESS_RECORD_KEY: ${{ secrets.210710 }}
+          CYPRESS_RECORD_KEY: ${{ secrets.wcbskc }}
         with:
           command: npm run test:cloud
